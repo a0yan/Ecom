@@ -1,0 +1,4 @@
+.collectionoverview{
+    display: flex;
+    flex-direction: column;
+}

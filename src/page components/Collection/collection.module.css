@@ -1,0 +1,13 @@
+.collection_page{
+    display: flex;
+    flex-direction: column;
+}
+.collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.title{
+    margin: 0 auto 30px;
+    font-size: 3rem;
+}

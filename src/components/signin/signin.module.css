@@ -1,0 +1,19 @@
+.signin{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    position: relative;
+    top:-60px;
+
+}
+.buttons{
+    display: flex;
+    justify-content:flex-end
+}
+@media(max-width:950px){
+    .signin{
+        margin-top: 15%;
+        position:initial;
+    }
+}

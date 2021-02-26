@@ -1,0 +1,13 @@
+.authpage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:950px){
+    .authpage{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
