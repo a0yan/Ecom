@@ -7,7 +7,7 @@ import "firebase/auth";
 import "firebase/firestore";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyBiNengl6Hsyu4qWmMqgirnzp6ZBD7Cu5s",
+  apiKey: "process.env.REACT_APP_API_KEY",
   authDomain: "e-com-f580a.firebaseapp.com",
   projectId: "e-com-f580a",
   storageBucket: "e-com-f580a.appspot.com",
